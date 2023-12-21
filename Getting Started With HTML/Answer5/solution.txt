@@ -1,0 +1,15 @@
+DOCTYPE:
+The Document Type Declaration, often abbreviated as DOCTYPE, 
+is an instruction that is used in HTML documents to specify the
+version of HTML or XHTML being used. It is placed at the very 
+beginning of an HTML document, before the <html> tag. The purpose
+of the DOCTYPE declaration is to tell the browser or parser how to
+interpret the document and to ensure that the document is rendered correctly.
+
+The general syntax of the DOCTYPE declaration is as follows:
+
+<!DOCTYPE html>
+
+In this example, html refers to the version of HTML being used.
+In modern web development, the DOCTYPE for HTML5 is commonly used,
+as shown above.
