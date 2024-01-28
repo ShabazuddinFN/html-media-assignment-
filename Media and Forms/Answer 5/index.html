@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up & Sign-in form</title>
+ </head>
+ <body>
+     <fieldset>
+         <legend>Sign-up form</legend>          
+         <form action="" method="post" target="_blank" >
+               <label for="First Name">First Name:
+                     <input type="text" name="First Name" placeholder="abcd" id="First Name" required minlength="3" maxlength="20" autocomplete="on">
+               </label>
+               <br>
+               <label for="Last Name">Last Name:
+                   <input type="text" name="Last Name" placeholder="xyz" id="Last Name" required minlength="3" maxlength="20" >
+               </label>
+               <br>
+               <label for="Email">Email:
+                   <input type="email" name="email" name="Email" placeholder="abcd@gmail.com" id="Email" required >
+               </label>
+               <br>
+               <label for="Password">Password:
+                    <input type="password" name="password" placeholder="********" id="password" required min="8">
+               </label>
+               <br>
+               <label for="Confirm Password">Confirm Password:
+                   <input type="password" name="Confirm password" placeholder="********" id="Confirm Password" required min="8">
+               </label>
+               <br>
+               <label for="Age">Age:
+                    <input type="number" name="Age" placeholder="24" id="Age" required min="0" max="150" >
+               </label>
+               <br>
+               <label for="Gender">Gender:
+                   <input type="radio" id="Male" value="Male" name="Gender" checked>
+                   <label for="Male">Male</label>
+                   <input type="radio" id="Female" value="Female" name="Gender">
+                   <label for="Female">Female</label>
+                   <input type="radio" id="Other" value="Other" name="Gender" >
+                   <label for="Other">Other</label>
+              </label>
+              <br>
+             <label for="Terms">Terms:
+                <input type="checkbox" id="Terms" required >I agree to terms and conditions
+             </label>
+             <br>
+             <button type="submit">Register</button>
+         </form>
+     </fieldset>
+      <hr>
+     <fieldset>
+          <legend>Sign-in form</legend>
+          <form action="" method="post" target="_blank">
+             <label for="Email login">Email:
+                 <input type="email" name="Email login"  placeholder="abcd@gmail.com" id="Email login" required >
+             </label>
+             <br>
+             <label for="Password login">Password:
+                <input type="password" name="Password login" placeholder="********" id="Password login" required min="8">
+             </label>
+             <br>
+             <button type="submit">Login</button>
+         </form>
+     </fieldset>
+ </body>
+</html>
